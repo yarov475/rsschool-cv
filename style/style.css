@@ -1,0 +1,49 @@
+.twoColumns{
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    width: 90%;
+    margin: 0 auto;
+}
+.twoColumns_left{
+    background-color: greenyellow;
+}
+.twoColumns_left__ava img{
+    width: 60px;
+    border-radius: 600px;
+    border: 2px solid red;
+}
+body  {
+    font-size: 14px;
+    line-height: 1.5em;
+
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    padding-left: 0; /* Сдвигаем список влево */
+}
+
+footer{
+    width: 90%;
+    display: flex;
+    background-color: greenyellow;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+
+    width: 50px;
+}
+.twoColumns_left__contact img{
+    width: 60px;
+}
+.code {
+    color: aliceblue;
+    background-color: black;
+    position: relative;
+    left: -40px;
+    top: -10px;
+}
