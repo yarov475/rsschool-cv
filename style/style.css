@@ -3,7 +3,6 @@
     justify-content: center;
 
 }
-
 body {
     width: 60%;
     margin: 0 auto;
@@ -69,7 +68,6 @@ footer img {
 .twoColumns_left__contact img {
     width: 60px;
 }
-
 .code {
     padding-left: 20px;
     color: aliceblue;
