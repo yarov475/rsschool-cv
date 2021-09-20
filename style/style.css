@@ -89,12 +89,31 @@ footer ul  {
 .footer img {
     height: 100%;
 }
-
-.twoColumns_left__contact ul {
-    display: flex;
-    justify-content: space-between;
+footer a{
+    text-decoration: none;
+    color: greenyellow;
+}
+footer a:hover{
+    background-color: #fff;
+    color: red;
+    border-bottom: 10px solid darkred;
 }
 
+.twoColumns_left__contact a{
+color: white;
+    text-decoration: none;
+}
+.courses a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    transition-duration: 1s;
+    margin: 10px;
+    padding: 10px;
+    border-left: 10px solid red;
+}
 .twoColumns_left__contact img {
     width: 60px;
 }
@@ -127,8 +146,10 @@ iframe {
     width: 100%;
 }
 .about_text{
+    width: 100%;
     margin: 10px;
     padding: 10px;
+    background-color: #fff;
 
 }
 .skills,.exp{
