@@ -27,7 +27,7 @@ h1, h2, h3 {
 .twoColumns {
     display: flex;
     justify-content: center;
-   }
+}
 
 
 .twoColumns_left {
@@ -36,7 +36,6 @@ h1, h2, h3 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
 
 
 }
@@ -57,9 +56,9 @@ h1, h2, h3 {
 }
 
 .twoColumns_left__ava img {
-    width: 100
+    width: 100%;
 
-    % ;  /*border-radius: 600px;*/
+
     border: 5px solid violet;
     transform: scale(-1, 1);
 }
@@ -74,11 +73,11 @@ ul {
 }
 
 
-
-footer img{
+footer img {
     width: 100%;
 }
-footer ul  {
+
+footer ul {
 
     display: flex;
     justify-content: space-around;
@@ -90,9 +89,33 @@ footer ul  {
     height: 100%;
 }
 
-.twoColumns_left__contact ul {
-    display: flex;
-    justify-content: space-between;
+footer a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+footer a:hover {
+    background-color: #fff;
+    color: red;
+    border-bottom: 10px solid darkred;
+}
+
+.twoColumns_left__contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.courses a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+    transition-duration: 1s;
+    margin: 10px;
+    padding: 10px;
+    border-left: 10px solid red;
 }
 
 .twoColumns_left__contact img {
@@ -112,7 +135,7 @@ footer ul  {
     background-color: #ffffff;
     width: 100%;
 
-  }
+}
 
 .education h2 {
     background-color: greenyellow;
@@ -126,11 +149,20 @@ iframe {
     border: 0;
     width: 100%;
 }
-.about_text{
+
+.about_text {
+    width: 100%;
     margin: 10px;
     padding: 10px;
+    background-color: #fff;
 
 }
-.skills,.exp{
+
+.skills, .exp {
     padding-left: 50px;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
 }
